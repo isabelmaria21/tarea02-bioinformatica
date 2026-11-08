@@ -1,5 +1,18 @@
 # Tarea 02 - Análisis de expresión diferencial con PyDESeq2
+**Estudiante:** Isabel María Gázquez Fernández  
+**Lenguaje elegido:** Python  
+**Repositorio GitHub:** https://github.com/isabelmaria21/tarea02-bioinformatica
 
+## Creación del entorno
+
+Desde la carpeta principal del proyecto, ejecutar:
+
+    conda env create -f environment.yml
+    conda activate tarea02_bioinformatica
+
+Para ejecutar el análisis:
+
+    bash main.sh
 ## 1. Descripción del proyecto
 
 Este proyecto realiza un análisis de expresión diferencial de genes utilizando datos de RNA-seq del proyecto TCGA-BRCA (cáncer de mama).
